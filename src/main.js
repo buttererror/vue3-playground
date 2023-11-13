@@ -10,5 +10,8 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
+
 
 app.mount('#app')
